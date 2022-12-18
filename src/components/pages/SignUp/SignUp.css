@@ -1,0 +1,43 @@
+.signUp{
+    /*margin-top: 25%;
+    margin-bottom: 25%;*/
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #8D8741;
+}
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.inputField{
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 10%;
+    background-color: #daad8692;
+    border-color: white;
+}
+
+.inputField::placeholder {
+    color: white;
+    text-align: center;
+}
+
+button{
+    margin-top: 10%
+}
+
+.inputDiv{
+    /*width: 100%;*/
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
